@@ -32,13 +32,7 @@ node index.js
 "Server started  at : http://127.0.0.1:3000" 
 ```
 setelah "server started", cek REST API pada endpoint berikut bisa menggunakan software POSTMAN atau software sejenis:
-| TYPE | URL | Parameter | Keterangan
-| ------ | ------ | ------ | ------ |
-| GET | http://127.0.0.1:3000/mahasiswa | - | Menampilkan semua data mahasiswa
-| GET | http://127.0.0.1:3000/mahasiswa/{npm} | npm:string; | Menampilkan data siswa dengan npm tersebut.
-| POST | http://127.0.0.1:3000/mahasiswa | npm:string ; nama:string; alamat:string; | Menambah data mahasiswa
-| PUT | http://127.0.0.1:3000/mahasiswa/{npm} | npm:string ; nama:string; alamat:string; | Mengubah data mahasiswa berdasarkan npm tersebut.
-| DELETE | http://127.0.0.1:3000/mahasiswa/{npm} | npm:string;  | Menghapus data mahasiswa dengan npm tersebut
+[![N|Solid](https://1.bp.blogspot.com/-0PDC57noYhM/W979tpt25YI/AAAAAAAAANU/XFRUzlsefdcFxtGN1q8yi3BvZheAVZbYgCK4BGAYYCw/s1600/table.png)](https://1.bp.blogspot.com/-0PDC57noYhM/W979tpt25YI/AAAAAAAAANU/XFRUzlsefdcFxtGN1q8yi3BvZheAVZbYgCK4BGAYYCw/s1600/table.png)
 
 
 Jika tidak terdapat masalah pada API, langkah berikutnya adalah akses frontend dengan browser
